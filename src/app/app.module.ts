@@ -7,13 +7,15 @@ import { HomeComponent } from './pages/home/home.component';
 import { DeliveryComponent } from './pages/delivery/delivery.component';
 import { FranchiseeComponent } from './pages/franchisee/franchisee.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { FooterComponent } from './layouts/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     DeliveryComponent,
-    FranchiseeComponent
+    FranchiseeComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

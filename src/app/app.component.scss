@@ -1,0 +1,17 @@
+.background {
+    background-color: #161414;
+    a{
+        color: #9E9E9E;
+    }
+    :active{
+        color: #EBD700;
+    }
+    .active{
+        color: #EBD700;
+    }
+    
+}
+.navbar-nav {
+    display: flex;
+    align-items: center;
+}

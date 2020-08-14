@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+  cardText = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris finibus ligula aLorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris finibus ligula a ornare tincidunt.';
+
   constructor() { }
 
   ngOnInit(): void {

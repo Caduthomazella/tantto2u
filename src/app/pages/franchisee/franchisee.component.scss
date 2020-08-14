@@ -1,0 +1,64 @@
+.container {
+    padding: 0px 120px;
+}
+
+.background {
+    background-image: url(../../../assets/franqueado/Arte3_Lojista.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    .square {
+        position: absolute;
+        top: 150px;
+        right: 500px;
+        background-image: url(../../../assets/franqueado/squareblack.png);
+        background-repeat: no-repeat;
+        width: 45%;
+        height: 100vh;
+        h4 {
+            position: absolute;
+            top: 25%;
+            left: 18%;
+            color: white;
+        }
+        h2 {
+            position: absolute;
+            top: 30%;
+            left: 15%;
+            color: white;
+        }
+    }
+}
+
+.background2 {
+    background-color: #F5F5F5;
+    height: 200vh;
+    position: relative;
+
+    .card {
+        border-radius: 30px;
+        background-color: #161414;
+        h2 {
+            color: #EBD700;
+        }
+        input{
+            background-color: #323233;
+            color: #FFFFFF;
+            border-color: #323233;
+        }
+    
+        .termos {
+            display: flex;
+            align-items: center;
+            color: #FFFFFF;
+            font-weight: bolder;
+        }
+        .buttonTantto {
+            width: 25%;
+            border-radius: 20px;
+            border-color: #EBD700;
+            background-color: #EBD700;
+            color: #09090A;
+            font-weight: bolder;
+        }
+    }
+}

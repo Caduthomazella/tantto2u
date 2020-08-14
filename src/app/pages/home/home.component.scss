@@ -1,0 +1,71 @@
+.container {
+    padding: 0px 120px;
+}
+
+.background {
+    background-image: url(../../../assets/home/Arte1_Home.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 75vh;
+    .title {
+        display: flex;
+        align-items: center;
+        h4 {
+            font-weight: bolder;
+            font-size: 25px;
+        }
+    }
+}
+
+.no-padding {
+    padding: 0px 10%;
+}
+
+.background2 {
+    background-color: #F5F5F5;
+    height: 220vh;
+
+    :lateral1{
+        background-image: url(../../../assets/home/Squaresv2_1-1.png);
+    }
+}
+
+.circle {
+    display: grid;
+    background-color: white;
+    width: 80%;
+    height: 180px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px -7px rgba(0,0,0,0.75);
+}
+.cardTantto {
+    display: flex;
+    align-items: center;
+    background-color: #161414;
+    border-radius: 40px;
+    padding: 2% 0px;
+    font-size: 20px;
+    img {
+        width: 200%;
+    }
+    .card-body {
+        margin-left: 7.5%;
+        h4{
+            color: #EBD700;
+        }
+        p {
+            color: #D4D4D4;
+        }
+    }
+}
+
+.backgroundfooter {
+    background-image: url(../../../assets/home/Arte1_Home.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 25vh;
+    p {
+        font-weight: bolder;
+    }
+}
